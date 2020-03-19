@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   siteMetadata: {
-    title: 'Ghost',
+    title: '허니밍의 달달한 일상로그',
     description: '보고 먹고 읽는 간호사',
     siteUrl: 'https://gatsby-casper.netlify.com', // full path to blog - no ending slash
   },
