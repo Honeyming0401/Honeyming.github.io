@@ -8,6 +8,8 @@ import { colors } from '../styles/colors';
 import { outer, inner } from '../styles/shared';
 import config from '../website-config';
 
+// import { OutboundLink } from 'gatsby-plugin-google-analytics';
+
 const SiteFooter = css`
   position: relative;
   padding-top: 20px;
@@ -78,6 +80,7 @@ const Footer: React.FC = () => {
           )}
         </section>
         <SiteFooterNav>
+          {/* <OutboundLink */}
           <Link to="/">Latest Posts</Link>
           {config.facebook && (
             <a href={config.facebook} target="_blank" rel="noopener noreferrer">
